@@ -1,5 +1,5 @@
 {
-  "name": "typescript03-interfaces",
+  "name": "typescript04-modules",
   "version": "1.0.0",
   "description": "Simple Typescript project",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pxai/typescript00-hello"
+    "url": "https://github.com/pxai/typescript04-modules"
   },
   "keywords": [
     "typescript",
@@ -18,7 +18,7 @@
   "author": "Pello Altadill",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pxai/typescript00-hello/issues"
+    "url": "https://github.com/pxai/typescript04-modules/issues"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
