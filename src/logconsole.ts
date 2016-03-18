@@ -1,14 +1,15 @@
-class Person {
-    name: string;
+import Ilog = Log.ILog;
+
+class LogConsole implements Ilog {
+    prefix:string;
+    suffix:string; // This is optional to implement
     
-    constructor (name: string) {
-        this.name = name;
+    constructor (prefix: string, suffix : string = '') {
+        this.prefix = prefix;
+        this.suffix = suffix;
     }
     
-    greet () : string {
-        return 'Hello, my name is ' + this.name;
+    public log (msg : string): void {
+        console.log(this.prefix + msg);
     }
 }
-
-var person : Person = new Person('Eugene');
-console.log(person.greet());
