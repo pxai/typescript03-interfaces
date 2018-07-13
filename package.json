@@ -21,9 +21,5 @@
     "url": "https://github.com/pxai/typescript04-modules/issues"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-typescript": "^2.12.1",
-    "merge2": "^1.0.1",
-    "watch": "^0.17.1"
   }
 }
